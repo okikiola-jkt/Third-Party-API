@@ -1,16 +1,45 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  .swim-lanes {
+    min-height: 60vh;
+  }
+  
+  .task-card {
+    margin: 0 auto;
+  }
+  
+  .task-card:hover {
+    cursor: grab;
+  }
+  
+  /* Add this style to your CSS */
+.task-title {
+  background-color: #f0f0f0; 
 }
 
-.swim-lanes {
-  min-height: 60vh;
+
+
+.card.task-card {
+  margin-bottom: 10px;
 }
 
-.task-card {
-  margin: 0 auto;
+.card.task-card {
+  margin-bottom: 10px;
+}
+/* 
+.card.task-card.red-background {
+  background-color: blue;
+  color: white;
 }
 
-.task-card:hover {
-  cursor: grab;
-}
+
+.card.task-card.red-background h5.card-title,
+.card.task-card.red-background p.card-text,
+.card.task-card.red-background p.card-text strong {
+  color: white;
+} */
+
+
